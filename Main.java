@@ -1,21 +1,12 @@
 public class Main {
     
+}
+public static void main(String[] args){
+    System.out.println("Countdown");
     
-    
-    public static int sum(int k){
+    for(int i=10;i>=1 ;i--){
+        System.out.println(i);
         
-        if (k>0){
-            return k+ sum(k-1);
-            
-        }
-        else {
-            return 0;
-        }
     }
-
-    public static void main (String[] args){
-        int result= sum(10);
-        System.out.println(result);
-    }
-
+    
 }
